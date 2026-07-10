@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050000">
+  <meta name="description" content="Inicialização cinematográfica do Protocolo Axial H.A.M.M.E.R.">
+  <title>H.A.M.M.E.R. | INICIALIZAÇÃO DO PROTOCOLO AXIAL</title>
+  <link rel="preconnect" href="https://arquivoshammer.tumblr.com">
+  <link rel="stylesheet" href="axial-boot.css">
+  <script src="axial-boot.js" defer></script>
+</head>
+<body>
+  <div class="screen-noise" aria-hidden="true"></div>
+  <div class="screen-vignette" aria-hidden="true"></div>
+
+  <main class="boot-stage">
+    <div class="system-grid" aria-hidden="true"></div>
+    <div class="coordinate coordinate--north" aria-hidden="true">AXIAL_NODE // 00-PRIME</div>
+    <div class="coordinate coordinate--south" aria-hidden="true">ENTROPY_LOCK // STABLE</div>
+
+    <button class="skip-control" id="skip-control" type="button">
+      [ IGNORAR ABERTURA ]
+    </button>
+
+    <section class="boot-hud" id="boot-hud" aria-labelledby="boot-title">
+      <header class="hud-header">
+        <div class="security-line">
+          <span>H.A.M.M.E.R. // REDE INTERNA</span>
+          <span class="security-level">ACESSO: AMETISTA-NEGRO</span>
+        </div>
+        <h1 class="hud-title" id="boot-title" data-text="H.A.M.M.E.R.">H.A.M.M.E.R.</h1>
+        <p class="hud-subtitle">DEPARTAMENTO DE AMEAÇAS ABSOLUTAS</p>
+      </header>
+
+      <div class="boot-layout">
+        <div class="axial-core" aria-hidden="true">
+          <div class="core-orbit core-orbit--outer"></div>
+          <div class="core-orbit core-orbit--middle"></div>
+          <div class="core-orbit core-orbit--inner"></div>
+          <div class="core-crosshair"></div>
+          <div class="core-sigil">
+            <span>AXIAL</span>
+            <strong>Ω</strong>
+            <span>PRIME</span>
+          </div>
+          <i class="core-pulse core-pulse--one"></i>
+          <i class="core-pulse core-pulse--two"></i>
+        </div>
+
+        <div class="terminal-panel">
+          <div class="terminal-heading">
+            <span>BOOT_SEQUENCE.LOG</span>
+            <span id="packet-counter">PKT 0000</span>
+          </div>
+
+          <ol class="terminal-logs" id="terminal-logs" aria-live="polite">
+            <li class="log-line" data-threshold="6">CONECTANDO AO MAINFRAME AXIAL... <strong>[OK]</strong></li>
+            <li class="log-line" data-threshold="22">BYPASS NOS PROTOCOLOS DE SEGURANÇA S.H.I.E.L.D.... <strong>[OK]</strong></li>
+            <li class="log-line" data-threshold="43">DESCRIPTOGRAFANDO ARQUIVOS DE CLASSE ÔMEGA...</li>
+            <li class="log-line log-line--warning" data-threshold="64">AVISO: CONTEÚDO ALTAMENTE VOLÁTIL. ISOLAMENTO RECOMENDADO.</li>
+            <li class="log-line" data-threshold="82">COMPILANDO DOSSIÊS GEOMÉTRICOS...</li>
+            <li class="log-line log-line--final" data-threshold="97">SINCRONIZAÇÃO DO EIXO CONCLUÍDA.</li>
+          </ol>
+
+          <div class="signal-bank" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-module">
+        <div class="progress-meta">
+          <span id="status-label">INICIALIZANDO MATRIZ</span>
+          <output id="progress-value" for="boot-progress">000%</output>
+        </div>
+        <div
+          class="progress-track"
+          id="boot-progress"
+          role="progressbar"
+          aria-label="Inicialização do Protocolo Axial"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div class="progress-bar" id="progress-bar"></div>
+          <div class="progress-scan" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <footer class="status-footer">
+        <span>SISTEMA <strong id="system-state">EM AQUISIÇÃO</strong> <i class="status-light"></i></span>
+        <span>TERRA-EIXO v2.6.16</span>
+      </footer>
+    </section>
+
+    <a
+      href="https://arquivoshammer.tumblr.com/inicio"
+      target="_top"
+      class="access-granted"
+      id="access-granted"
+      aria-hidden="true"
+      tabindex="-1"
+    >
+      <span class="access-code">AUTORIZAÇÃO // 616-AXIAL</span>
+      <strong>ACESSO CONCEDIDO</strong>
+      <span class="click-text">[ INICIAR PROTOCOLO ]</span>
+    </a>
+  </main>
+
+  <noscript>
+    <a class="no-script-access" href="https://arquivoshammer.tumblr.com/inicio" target="_top">
+      JavaScript indisponível — acessar Protocolo Axial
+    </a>
+  </noscript>
+</body>
+</html>
